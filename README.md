@@ -11,7 +11,8 @@ Most of the structure e.g.  Sleep hook, shellcode exec etc. are taken from mgeek
 - Our sleep function performs the sleep using a busy wait
 - Execution is passed back to the beacon shellcode
 
-This way, we intercept and replace the Sleep() call with our busy wait function, preventing the thread from entering the DelayExecution state.
+This way, we intercept and replace the Sleep() call with our busy wait function, preventing the thread from entering the DelayExecution state.  
+There is a possible OPSEC implication of this implementation in that it uses considerably more CPU than a normal beacon. Be aware of that.
 
 ## Usage
 ### Use busy sleep
