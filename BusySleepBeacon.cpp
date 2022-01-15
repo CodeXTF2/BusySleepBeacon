@@ -288,9 +288,8 @@ bool injectShellcode(std::vector<uint8_t>& shellcode, HandlePtr &thread)
 
 
 //Main Function
-int main(int argc, char** argv){
-    printf(argv[2]);
-    if (argv[2] == "1")
+int main(int argc, const char** argv){
+    if (strcmp(argv[2], "1") == 0)
     {
         printf("\n[+] Hooking kernel32!Sleep...");
         if (!hookSleep())
