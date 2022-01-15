@@ -25,3 +25,4 @@ Hunt-Sleeping-Beacons.exe
 Expected results:
 
 ![](https://i.imgur.com/OMgMQMa.png)
+![](https://i.imgur.com/CSyyMjI.png)
