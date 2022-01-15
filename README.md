@@ -16,9 +16,9 @@ There is a possible OPSEC implication of this implementation in that it uses con
 
 ## Usage
 ### Use busy sleep
-main.exe ./beacon.bin 1
+BusySleepBeacon.exe ./beacon.bin 1
 ### No busy sleep
-main.exe ./beacon.bin 0
+BusySleepBeacon.exe ./beacon.bin 0
 
 ### Test detection
 Hunt-Sleeping-Beacons.exe
